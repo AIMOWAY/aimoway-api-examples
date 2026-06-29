@@ -1,18 +1,18 @@
 # AIMOWAY API Examples
 
-OpenAI-compatible API examples for AIMOWAY LLM API access.
+OpenAI-compatible API examples for AIMOWAY AI model access.
 
-AIMOWAY provides affordable and reliable access to selected AI model services through a simple web platform and an OpenAI-compatible API. This repository shows how to call AIMOWAY using `curl`, Python, and Node.js.
+AIMOWAY provides OpenAI-compatible AI API access for developers, AI agent builders, students, small teams, and agent workflow users. Use the AIMOWAY `/v1` API with your API key, base URL, and supported model names.
 
-AIMOWAY provides OpenAI-compatible access to selected AI models through authorized service sources and reliable upstream infrastructure. AIMOWAY is not a scraping layer or an unofficial shortcut to AI model services. Developers can use familiar OpenAI-compatible tooling with the AIMOWAY `/v1` API endpoint.
+This repository shows how to call AIMOWAY using `curl`, Python, Node.js, and OpenAI-compatible tooling.
 
-## Links
+## Quick links
 
 | Resource                     | URL                                       |
 | ---------------------------- | ----------------------------------------- |
 | Website                      | https://aimoway.com                       |
-| Developer Docs               | https://aimoway.com/docs                  |
 | Quick Start                  | https://aimoway.com/docs/quickstart       |
+| Developer Docs               | https://aimoway.com/docs                  |
 | API Reference                | https://aimoway.com/docs/api-reference    |
 | API Examples                 | https://aimoway.com/docs/examples         |
 | Pricing                      | https://aimoway.com/pricing               |
@@ -20,6 +20,51 @@ AIMOWAY provides OpenAI-compatible access to selected AI models through authoriz
 | OpenAI-Compatible API Access | https://aimoway.com/openai-compatible-api |
 | GLM-5.2 API                  | https://aimoway.com/models/glm-5-2        |
 | Privacy Policy               | https://aimoway.com/privacy               |
+
+## Who this is for
+
+AIMOWAY is designed for people who want straightforward access to selected AI models through a familiar OpenAI-compatible API.
+
+Typical users include:
+
+* Developers building AI features into apps, scripts, and backend services
+* AI agent and AI coding agent users who need an OpenAI-compatible `/v1` endpoint
+* Students learning how to call LLM APIs with `curl`, Python, or Node.js
+* Small teams that want API keys, usage logs, clear pricing, and practical examples
+* Builders experimenting with OpenAI-compatible tools and model routing
+
+## What you get
+
+AIMOWAY provides:
+
+* OpenAI-compatible `/v1` API access
+* API key based authentication
+* Service-credit based billing
+* Usage logs
+* Model pricing information
+* Developer documentation
+* Public examples for `curl`, Python, and Node.js
+* Agent workflow setup notes for tools such as OpenCode and Hermes Agent
+
+AIMOWAY provides access to selected AI models through authorized service sources and upstream infrastructure. AIMOWAY is not a scraping layer or an unofficial shortcut to AI model services.
+
+## Base URL
+
+Use this OpenAI-compatible API base URL:
+
+```text
+https://aimoway.com/v1
+```
+
+## Before you start
+
+Create an AIMOWAY account, add service credits, and create an API key.
+
+Do not hard-code your API key in source code. Use an environment variable instead:
+
+```bash
+export AIMOWAY_API_KEY="your_aimoway_api_key_here"
+```
 
 ## What is included
 
@@ -41,21 +86,23 @@ For the full AIMOWAY developer documentation, see:
 * Hermes Agent configuration: https://aimoway.com/docs/hermes-agent
 * Troubleshooting: https://aimoway.com/docs/troubleshooting
 
-## Before you start
+## Agent workflow notes
 
-Create an AIMOWAY account, add service credits, and create an API key.
+If you use AI coding tools or agent workflows, AIMOWAY can be used as an OpenAI-compatible endpoint when the tool supports custom API base URLs.
 
-Do not hard-code your API key in source code. Use an environment variable instead:
-
-```bash
-export AIMOWAY_API_KEY="your_aimoway_api_key_here"
-```
-
-The AIMOWAY OpenAI-compatible API base URL is:
+In general, you need:
 
 ```text
-https://aimoway.com/v1
+Base URL: https://aimoway.com/v1
+API key:  your AIMOWAY API key
+Model:    a supported model name from the AIMOWAY Pricing page
 ```
+
+See:
+
+* OpenCode configuration: https://aimoway.com/docs/opencode
+* Hermes Agent configuration: https://aimoway.com/docs/hermes-agent
+* Pricing and supported models: https://aimoway.com/pricing
 
 ## Example model
 
