@@ -9,9 +9,10 @@ This repository shows how to call AIMOWAY using `curl`, Python, Node.js, and Ope
 ## Quick links
 
 | Resource                     | URL                                       |
-| ---------------------------- | ----------------------------------------- |
+|------------------------------|-------------------------------------------|
 | Website                      | https://aimoway.com                       |
 | Quick Start                  | https://aimoway.com/docs/quickstart       |
+| AI Agents & Coding Agents    | https://aimoway.com/docs/ai-agents        |
 | Developer Docs               | https://aimoway.com/docs                  |
 | API Reference                | https://aimoway.com/docs/api-reference    |
 | API Examples                 | https://aimoway.com/docs/examples         |
